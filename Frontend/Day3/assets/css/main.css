@@ -1,0 +1,37 @@
+.hero {
+    background-image: url("https://img.freepik.com/free-photo/happy-young-female-student-holding-notebooks-from-courses-smiling-camera-standing-spring-c_1258-126844.jpg?w=1380&t=st=1708509923~exp=1708510523~hmac=bc03eba76536920ab178a3b6aa783bd905744a708deb04a0f7ffe99540ece80e");
+    /* background-siz; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+  }
+  .hero #heading h3 {
+    color: #fff;
+  }
+  .hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  @media screen and (max-width: 768px) {
+    .margin {
+      height: 40vh;
+    }
+    .hero {
+      background-position: right;
+      padding-top: 50%;
+      height: 80vh;
+    }
+    .hero .row {
+      width: 100%;
+    }
+  }

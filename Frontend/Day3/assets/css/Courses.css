@@ -1,0 +1,32 @@
+/* course.css */
+
+.course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px;
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    margin-left: 280px;
+    margin-right: 40px;
+  }
+  
+  .course-card {
+    width: calc(25% - 20px); /* Set the width to a quarter of the available space minus the gap */
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+    padding: 20px;
+    font-weight:lighter;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .course-card-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
